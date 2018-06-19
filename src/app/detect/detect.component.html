@@ -1,0 +1,11 @@
+
+<div class="row">
+    <input id="upload-input" type="file" multiple="multiple" (change)="getFile($event)" class="dz-hidden-input" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;">
+    <div class="btn-group">
+      <button class="btn btn-primary btn-block up-btn" (click)="selectFile()">Upload Files</button>
+      <button class="btn btn-primary btn-block up-btn" (click)="detect()">Start</button>
+    </div>
+    <div class="alert alert-info info" >
+       <a class="alert-link" style="display: flex; justify-content: center">{{fileSelected}}</a>
+    </div>
+</div>

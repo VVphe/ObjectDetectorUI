@@ -1,0 +1,12 @@
+.up-btn {
+    margin: 10px;
+    width: 45%;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    width: 80%;
+    margin-left: 110px
+}
